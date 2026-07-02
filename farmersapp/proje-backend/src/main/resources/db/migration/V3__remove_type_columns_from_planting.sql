@@ -1,0 +1,3 @@
+ALTER TABLE planting
+DROP COLUMN IF EXISTS area_type,
+DROP COLUMN IF EXISTS quantity_type; 

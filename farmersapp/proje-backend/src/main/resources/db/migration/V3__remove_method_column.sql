@@ -1,0 +1,1 @@
+ALTER TABLE irrigation DROP COLUMN IF EXISTS method; 

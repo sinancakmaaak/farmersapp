@@ -1,0 +1,47 @@
+# IDE and System Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Frontend (React / Node) Dependencies and Build
+**/node_modules/
+**/dist/
+**/build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend (Java / Spring Boot) Build and Logs
+**/target/
+**/.mvn/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+*~
+*.log
+*.hprof
+
+# Python (AI / Data / Script) Virtual Environments & Caches
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/env/
+**/.venv/
+**/venv/
+**/ENV/
+**/.pytest_cache/
+**/.ipynb_checkpoints/

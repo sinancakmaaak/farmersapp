@@ -1,0 +1,1 @@
+ALTER TABLE irrigation MODIFY amount DECIMAL(10,2) NULL; 
